@@ -1,0 +1,132 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.intro {
+  background: #333;
+  color: #fff;
+  position: relative;
+  background: url('/assets/background.jpg') center/cover;
+}
+.intro .container {
+  padding: 6rem 0 450px 3rem;
+}
+.intro h1 {
+  font-size: 46px;
+  line-height: 1.39;
+  margin: 0;
+}
+.intro p {
+  font-size: 17px;
+  line-height: 1.82;
+  max-width: 350px;
+}
+.intro button {
+  padding: 12px 16px;
+  background: #0000;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.features {
+  background: #fff;
+  padding: 40px 70px;
+  color: #000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 650px;
+}
+.features h2 {
+  letter-spacing: 1.08px;
+  line-height: 1.54;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.features .pricing {
+  background: #0ad9c6;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 8px 32px;
+  transform: translateY(-50%);
+}
+.features .pricing i {
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+}
+.features .pricing b {
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: -2px;
+  vertical-align: middle;
+}
+.features .pricing span {
+  /* line-height: 1.2; */
+  letter-spacing: 1.08px;
+  line-height: 1.54;
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features ul {
+  list-style-type: none;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.features li {
+  /* display: inline-block; */
+  padding: 24px 0;
+  width: 33%;
+  float: left;
+}
+
+.intro li div {
+  line-height: 1.5;
+  max-width: 80px;
+}
+
+.intro h3 {
+    font-size: 22px;
+    line-height: 1.55;
+    letter-spacing: -0.5px;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer {
+  background: #171717;
+  color: #fff;
+  padding: 32px 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+footer p {
+  display: inline-block;
+}
+footer ul {
+  float: right;
+}
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 8px;
+}
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
