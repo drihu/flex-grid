@@ -6,11 +6,16 @@ main {
     background: cornflowerblue url("../assets/Img Modern Walls.jpg");
     box-sizing: border-box;
     margin: 0;
-    height: 650px;
 }
 
-.main-features > h5 {
-    color: gray;
+.main-features h5 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.08333px;
+    text-transform: uppercase;
+    color: #999999;
+    padding: 30px 0  0 40px ;
 }
 
 .big-div {
@@ -32,16 +37,13 @@ main {
 }
 
 .right-content {
-    float: left;
-    width: 75%;
-    padding: 10px 10px 10px 300px;
-    height: 200px;
+    float: right;
+    width: 50%;
     box-sizing: border-box;
 }
 
 .main-features {
-    padding: 30px 80px 60px 80px;
-    height: 359px;
+    padding: 0 30px;
 }
 
 .item-row {
@@ -53,10 +55,9 @@ main {
 }
 
 .item-list {
-    float: left;
+    display: inline-block;
     width: 33.33%;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 40px;
 }
 
 .choose-btn {
@@ -84,8 +85,7 @@ main {
 
 .features-div {
     background-color: white;
-    width: 75%;
-    z-index: 1;
+    position: relative;
 }
 
 .item-row {
@@ -103,10 +103,13 @@ main {
 .sub-detail-data {
     text-align: center;
     width: 70px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .padding_top {
-    padding-top: 280px;
+    padding-top: 240px;
 }
 
 .price-text {
@@ -118,8 +121,8 @@ main {
     height: 100px;
     position: absolute;
     z-index: 2;
-    top: 220px;
-    left: 1410px;
+    right: 0;
+    top: -15%;
 }
 
 .price-text > div {
