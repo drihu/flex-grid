@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Rubik:400,500,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -22,6 +22,7 @@ footer .top-side{
 footer .top-side .left{
     display: inline-block;
     width: calc(100%/3);
+    vertical-align: top;
 }
 
 footer .top-side .left h3{
@@ -38,17 +39,61 @@ footer .top-side .left p{
 footer .top-side .center{
     display: inline-block;
     width: calc(100%/3);
+    text-align: center;
 }
 
-footer .top-side .center h3{
+footer .top-side .center h3, footer .top-side .right h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    text-align: left;
 }
 
 footer .top-side .right{
     display: inline-block;
-    width: calc(100%/3);
+    width: 32%;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer .bottom-side .left{
+    padding: 40px;
+    float: left;
+    width: 50%;
+    background: #171717;
+}
+
+footer .bottom-side .left span{
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 6rem;
+}
+
+footer .bottom-side .right{
+    padding: 40px;
+    float: left;
+    width:50%;
+    background: #171717;
+    text-align: right;
+}
+
+footer .bottom-side .right ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 7rem;
+}
+
+footer .bottom-side .right ul li{
+    display: inline-block;
+}
+
+footer .bottom-side .right ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 30px;
 }
 
 .social-media{
@@ -62,14 +107,46 @@ footer .top-side .right{
 }
 
 .recents{
+    display: inline-block;
     padding: 0;
+    margin:0;
     list-style: none;
+    text-align: left;
+}
+
+.recents h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFE626;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.recents li{
+    margin: 20px 0;
+}
+
+.recents p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 3px;
+    margin: 6px 0 ;
+    padding: 0;
+}
+
+.recents span{
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
 }
 
 .recents .picture{
     display: inline-block;
     width: 95px;
     height: 95px;
+    margin-right: 20px;
 }
 
 .recents .picture img{
@@ -78,4 +155,13 @@ footer .top-side .right{
 
 .recents .info{
     display: inline-block;
+    width: 138px;
+}
+
+.photos{
+    display: inline-block;
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-align: left;
 }
