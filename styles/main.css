@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background: #282828;
+    color: #FFFFFF;
+}
+
+footer .top-side{
+    padding: 10px 135px 30px 135px;
+}
+
+footer .top-side .left{
+    display: inline-block;
+    width: calc(100%/3);
+}
+
+footer .top-side .left h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+footer .top-side .left p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer .top-side .center{
+    display: inline-block;
+    width: calc(100%/3);
+}
+
+footer .top-side .center h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .top-side .right{
+    display: inline-block;
+    width: calc(100%/3);
+}
+
+.social-media{
+    list-style: none;
+    margin-top: 30px;
+}
+.social-media li{
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.recents{
+    padding: 0;
+    list-style: none;
+}
+
+.recents .picture{
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+}
+
+.recents .picture img{
+    width: 100%;
+}
+
+.recents .info{
+    display: inline-block;
+}
