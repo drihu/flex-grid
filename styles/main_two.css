@@ -1,0 +1,140 @@
+/*div {
+ border: 1px solid black;
+}*/
+
+main {
+    background: cornflowerblue url("../assets/Img Modern Walls.jpg");
+    box-sizing: border-box;
+    margin: 0;
+    height: 650px;
+}
+
+.main-features > h5 {
+    color: gray;
+}
+
+.big-div {
+    padding-left: 150px;
+    padding-right: 150px;
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.left-content {
+    float: left;
+    width: 25%;
+    padding: 70px 10px 10px 10px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.right-content {
+    float: left;
+    width: 75%;
+    padding: 10px 10px 10px 300px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.main-features {
+    padding: 30px 80px 60px 80px;
+    height: 359px;
+}
+
+.item-row {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.item-list {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.choose-btn {
+    background: Transparent no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 15px 25px 15px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.choose-btn:hover {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
+
+.main-tittle,
+.left-content > p {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.features-div {
+    background-color: white;
+    width: 75%;
+    z-index: 1;
+}
+
+.item-row {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+.bold-detail {
+    font-weight: bold;
+    padding-bottom: 20px;
+    width: 70px;
+}
+
+.sub-detail-data {
+    text-align: center;
+    width: 70px;
+}
+
+.padding_top {
+    padding-top: 280px;
+}
+
+.price-text {
+    font-size: xx-large;
+    text-align: right;
+    border: none;
+    background-color: lightseagreen;
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 220px;
+    left: 1410px;
+}
+
+.price-text > div {
+    padding-top: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.price-big-text {
+    font-weight: bold;
+    color: white;
+}
+
+.little-text {
+    padding-top: 15px;
+    font-size: small;
+    font-weight: normal;
+}
