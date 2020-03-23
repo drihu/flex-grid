@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #171717;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.product {
+  background-image: url("../assets/Img\ Modern\ Walls.jpg");
+  height: 742px;
+  position: relative;
+}
+
+/*** Plans section ***/
+.plans {
+  position: relative;
+  width: 360px;
+  left: 148px;
+  top: 132.36px;
+}
+
+.site-title {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.site-description {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 31px;
+  margin-bottom: 30px;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  height: 48.5px;
+  padding: auto;
+  width: 164px;
+}
+
+button:hover {
+  background: #0ad9c6;
+  border: none;
+}
+
+/*** Features section ***/
+.features {
+  background: #fff;
+  color: #171717;
+  bottom: 0;
+  height: 410px;
+  position: absolute;
+  right: 135px;
+  width: 653px;
+}
+
+.features h2 {
+  color: #999999;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1.08333px;
+  line-height: 20px;
+  margin: 40px auto;
+  text-transform: uppercase;
+  width: 467px;
+}
+
+.feat-wrapper {
+  margin: auto;
+  width: 467px;
+}
+
+.feat {
+  float: left;
+  margin-right: 128px;
+  width: 70px;
+}
+
+.feat:nth-of-type(3),
+.feat:nth-of-type(6) {
+  margin-right: 0;
+}
+
+.feat:nth-of-type(4),
+.feat:nth-of-type(5),
+.feat:nth-of-type(6) {
+  margin-top: 45px;
+}
+
+.feat h4 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.feat-highlight {
+  display: block;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+}
+
+.price {
+  background: #0ad9c6;
+  color: #fff;
+  height: 121px;
+  position: absolute;
+  right: 0;
+  top: -60px;
+  width: 164px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1.08333px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price-highlight {
+  display: block;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+
+/*** Aside ***/
+aside {
+  background: #282828;
+  height: 310px;
+  position: relative;
+}
+
+.description {
+  left: 135px;
+  position: absolute;
+  top: 20px;
+  width: 270px;
+}
+
+.posts {
+  position: absolute;
+  left: 534px;
+  top: 20px;
+  width: 250px;
+}
+
+.post-category {
+  color: #ffe626;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.instagram {
+  position: absolute;
+  left: 1000px;
+  top: 20px;
+  width: 300px;
+}
+
+/*** Footer ***/
+footer {
+  height: 94px;
+}
