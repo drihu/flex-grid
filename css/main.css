@@ -1,0 +1,37 @@
+.container {
+  padding: 0;
+  background: #dddddd;
+  border: 2px dashed #333333;
+}
+.square {
+  padding: 15px;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.square-1 {
+  background: #3cbc9c;
+}
+.square-2 {
+  background: #3498db;
+}
+.square-3 {
+  background: #9c5cb6;
+}
+.square-4 {
+  background: #34495e;
+}
+.square-5 {
+  background: #f0c538;
+}
+.square-6 {
+  background: #e67f38;
+}
+.square-7 {
+  background: #e74c3c;
+}
+.square-8 {
+  background: #9db3b7;
+}
+.square-9 {
+  background: #4ecc71;
+}

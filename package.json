@@ -1,0 +1,23 @@
+{
+  "name": "flex-grid",
+  "version": "0.1.0",
+  "description": "A demo with Flexbox and Grid",
+  "main": "none",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drihu/flex-grid.git"
+  },
+  "author": "Ricardo Huamani <ricardohuamanip@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drihu/flex-grid/issues"
+  },
+  "homepage": "https://github.com/drihu/flex-grid#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
